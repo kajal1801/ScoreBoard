@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #330C2F;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    background: #7067CF;
+    margin: 15% 15%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 3px white;
+}
+
+.heading{
+    font-size: 25px;
+    font-family: 'Unbounded', cursive;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard{
+    height: 100%;
+    width: 75%;
+    padding: 5%;
+    background: #330C2F;
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    align-content: center;
+    color: beige;
+    text-shadow: 1px 0px 4px #fff;
+}
+
+.btn{
+    background-color:  #7067CF;
+    border: 0.5px solid white;
+    color: beige;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #C6D1E7;
+    color: #7067CF;
+    transition: 0.3s ease;
+}
+
+#new-game{
+    background-color:  #CBF3D2;
+    border: 0.5px solid white;
+    color: #675CD8;
+    padding: 10px;
+    margin: 2px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+#new-game:hover{
+    cursor: pointer;
+    background: #C6D1E7;
+    color: #7067CF;
+    transition: 0.3s ease;
+}
