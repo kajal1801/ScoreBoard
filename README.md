@@ -2,7 +2,7 @@
 
 ### This project was intended to practice javascript basics. 
 
-### Live Link: (Scoreboard App)[https://scorecard-2player.netlify.app/]
+### Live Link: [Scoreboard App](https://scorecard-2player.netlify.app/)
 
 
 ## Implementations: 
